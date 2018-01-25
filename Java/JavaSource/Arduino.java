@@ -36,8 +36,6 @@ public class Arduino {
 			return true;
 		}
 		else {
-			//AlertBox alert = new AlertBox(new Dimension(400,100),"Error Connecting", "Try Another port");
-			//alert.display();
 			return false;
 		}
 	}
