@@ -57,9 +57,9 @@ public class SmartThermometer extends Application {
     public String arduinoString = "";
     public int arduinoVal = 0;
     
-    public static final String ACCOUNT_SID = "AC2b167678a842f3e11cad1df32d5787d8";
-    public static final String AUTH_TOKEN = "a53a018d1379b133d8b33e6bb7440b56";
-    String phoneNumber = "+16417997438";
+    public static final String ACCOUNT_SID = ""; // Account Authentication information
+    public static final String AUTH_TOKEN = ""; // Account Authentication information
+    String phoneNumber = ""; // Send to Phone Number Ex: "+xxxxxxxxxxx"
     String numCheck = "^[0-9]{10}$";
     int ForC = 1;
     String tempString;
@@ -368,7 +368,7 @@ public class SmartThermometer extends Application {
     Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
     Message message = Message
             .creator(new PhoneNumber(toPhoneNumber),  // to
-                    new PhoneNumber("+16175448459"),  // from
+                    new PhoneNumber(""),  // from // From Phone Number Ex: "+xxxxxxxxxxx"
                     body + " current temperature " + temperature + " C")
             
             .create();
