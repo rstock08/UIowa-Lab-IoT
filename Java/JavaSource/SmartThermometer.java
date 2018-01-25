@@ -1,7 +1,7 @@
 /* Date: 9/28/2017
  * Authors: Reed, Aaron, RJ and Junhan
- * SmartThermometer: 
- * Description: 
+ * Project name: SmartThermometer
+ * Description: Gui for graphing and updating phone numbers and min/max temperatures.
 */
 
 // Import statements/libraries
