@@ -6,6 +6,7 @@ Create a thermometer that communicates with a computer and graphs the temperatur
    - Arduino
       - C++
       - I/O Thermometer
+   - Twilio
 
 <b>Libraries:</b><br>
 - Hirday Gupta's Arduino Serial Communication from Java was used which can be found on their Github page: https://github.com/HirdayGupta
