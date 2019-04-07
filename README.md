@@ -2,10 +2,12 @@
 <b>Objective:</b><br>
 Create a thermometer that communicates with a computer and graphs the temperatures. Also sends messages indicating the thermometer has suprassed a specified temperature high or low to specified phone number.
 
-This lab we used an Arduino, a laptop and a few modules for our Arduino to create this system.
+<b>Technologies:</b><br>
+   - Arduino
+      - C++
+      - I/O Thermometer
 
-Some libraries were necessary to execute this project.
-
+<b>Libraries:</b><br>
 - Hirday Gupta's Arduino Serial Communication from Java was used which can be found on their Github page: https://github.com/HirdayGupta
 - Twilio's API for sending messages which can be found on their website: www.twilio.com/
 - Miles Burton's temperature control library which can be found on the Arduino website: http://www.arduino.cc/playground/Learning/OneWire
