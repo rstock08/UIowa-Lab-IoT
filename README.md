@@ -1,5 +1,6 @@
 # SeniorDesignLab
-Objective of this project was to create a thermometer that communicates with a computer and graphs the temperatures. Also sends messages indicating the thermometer has suprassed a specified temperature high or low to specified phone number.
+<b>Objective:</b><br>
+Create a thermometer that communicates with a computer and graphs the temperatures. Also sends messages indicating the thermometer has suprassed a specified temperature high or low to specified phone number.
 
 This lab we used an Arduino, a laptop and a few modules for our Arduino to create this system.
 
@@ -10,4 +11,4 @@ Some libraries were necessary to execute this project.
 - Miles Burton's temperature control library which can be found on the Arduino website: http://www.arduino.cc/playground/Learning/OneWire
 - Along with libraries provided by the companies of the modules used on this project.
 
-For more information please look to the documentation file.
+For more information please look to the documentation file. You can also reach out to me at ReedStock1992@gmail.com
